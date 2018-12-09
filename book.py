@@ -46,10 +46,12 @@ for page in range(1, 2263):
                     else:
                         if len(book["origAuthor"]) != 0:
                             author = book["origAuthor"][0]["name"]
-                    averageRating = str(int(book["averageRating"]) * 2)
+                    averageRating = str((book["averageRating"]) * 2)
+                    print(averageRating)
                     id = book["id"]
                     ratingCount = str(book["ratingCount"])
                     title = book["title"]
+                    cover = book["cover"]
                     if len(book["kinds"]) != 0:
                         kind = []
                         for k in book["kinds"]:
