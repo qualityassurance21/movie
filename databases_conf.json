@@ -1,0 +1,19 @@
+{
+    "movieRecommend":{
+      "host":"localhost",
+      "port":3306,
+      "user":"root",
+      "password":"123456",
+      "database":"movieRecommend",
+      "charset":"utf8"
+    },
+    "bookInfo":{
+      "host":"localhost",
+      "port":3306,
+      "user":"root",
+      "password":"123456",
+      "database":"bookInfo",
+      "charset":"utf8"
+    }
+
+}
