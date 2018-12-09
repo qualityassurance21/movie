@@ -40,6 +40,7 @@ for style in styleList:
                     title = movie["title"]
                     id = movie["id"]
                     style = style
+                    cover = movie["cover"]
                     # print(casts)
                     SQL = 'insert into movieinfo(id, title, casts, directors, rate, star, style) values(%s, %s, %s, %s, %s, %s, %s)'
                     # SQL = "insert into movieinfo(id, title, directors, rate, star, style) values({0}, {1}, {2}, {3}, {4}, {5})".format(id, title, directors, rate, int(star)/10, style)
